@@ -42,7 +42,7 @@ void loop() {
   if (t == BAD_TEMP || h == BAD_HUM) {
     lcd.print("Unable to read");
   } else {
-    lcd.print("Temperature:");
+    lcd.print("Temperature: ");
     lcd.setCursor(13, 0);
     lcd.print(t);
     lcd.print(" F");
